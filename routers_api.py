@@ -1,7 +1,7 @@
 from routeros_api import RouterOsApiPool
 
 # Konfigurasi login Mikrotik
-HOST = '166.0.202.190'       # Ganti sesuai IP Mikrotik kamu
+HOST = 'ISI DENGAN IP MIKROTIK'       # Ganti sesuai IP Mikrotik kamu
 USERNAME = 'api_user'        # Username API kamu
 PASSWORD = 'api12345'        # Password API kamu
 PORT = 8728                  # Port API Mikrotik
