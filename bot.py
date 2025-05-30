@@ -16,8 +16,8 @@ from aiogram.utils.i18n import gettext as _
 from routers_api import create_vpn_user, delete_vpn_user
 
 # Token dan admin
-API_TOKEN = "7216704481:AAE0Y84scLD2pVSwc9TXf7n9eJdXrjo9I7U"
-ADMIN_IDS = [5988458116]
+API_TOKEN = "ISI DENGEN BOT TOKEN"
+ADMIN_IDS = [ISI ID TOKEN]
 
 DATA_FILE = "data_pengguna.json"
 
@@ -42,7 +42,7 @@ def save_data(data):
 @router.message(Command("start"))
 async def start_handler(message: Message):
     await message.answer(
-        "🛡️ Selamat datang di Bot VPN MURAH SUKABUMI\n\n"
+        "🛡️ Selamat datang di Bot VPN \n\n"
         "Untuk membuat akun VPN:\n`/vpn username email`\n"
         "Contoh: `/vpn budi budi@gmail.com`\n\n"
         "Cek akun VPN:\n`/cek username`\n\n"
@@ -87,10 +87,10 @@ async def vpn_handler(message: Message):
             f"Layanan: {service}\n"
             "====================\n\n"
             "Silakan konek menggunakan Winbox atau L2TP VPN.\n"
-            "Dial up - Connect To : vpnmurahsukabumi.my.id\n"
+            "Dial up - Connect To : 19.168.88.1\n"
             "====================\n"
             "Layanan VPN Costum :\n"
-            "Hubungi Admin: https://t.me/6285772075014\n"
+            "Hubungi Admin: https://t.me/62857xxxx4\n"
             "====================\n"
             "Join Group Diskusi Usaha Internet :\n"
             "Group Telegram : Diskusi Usaha Internet"
